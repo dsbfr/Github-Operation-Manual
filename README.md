@@ -52,15 +52,14 @@
 `hellow world`
 
 # 多行代码引用
-#### 我们需要在代码的上一行和下一行用` `` 标记。注意，``` 不是三个单引号，而是数字1左边，Tab键上面的键。要实现语法高亮那么只要在 ``` 之后加上你的编程语言即可（忽略大小写）。c++语言可以写成c++也可以是cpp。
+#### 我们需要在代码的上一行和下一行用'''标记。注意，'''不是三个单引号，而是数字1左边，Tab键上面的键。要实现语法高亮那么只要在 ''' 之后加上你的编程语言即可（忽略大小写）。c++语言可以写成c++也可以是cpp。
 例如：
 
-```    
-let pauseBtn = UIButton(frame: CGRect(x: 50, y: HEIGHT-100, width: 100, height: 50))
-pauseBtn.addTarget(self, action: #selector(btnClick(_:)), for: .touchUpInside)
-pauseBtn.setTitle("暂停", for: .normal)
-pauseBtn.tag = 11
-pauseBtn.setTitleColor(UIColor.black, for: .normal)```
+```let pauseBtn = UIButton(frame: CGRect(x: 50, y: HEIGHT-100, width: 100, height: 50))```
+```pauseBtn.addTarget(self, action: #selector(btnClick(_:)), for: .touchUpInside)```
+```pauseBtn.setTitle("暂停", for: .normal)```
+```pauseBtn.tag = 11```
+```pauseBtn.setTitleColor(UIColor.black, for: .normal)```
 
 # 网络链接
 http://www.baidu.com
