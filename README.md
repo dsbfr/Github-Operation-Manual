@@ -20,6 +20,7 @@
 [简书](http://www.baidu.com "悬停显示文字")
 
 # 插入网络图片一
+#### ![](图片地址）
 ![](http://upload-images.jianshu.io/upload_images/1874524-b9be15e31c25eba2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 插入网络图片二
@@ -39,15 +40,20 @@
 在代码前后加上```，格式：‘ ```代码``` ’
 例如：
 
-'''     let pauseBtn = UIButton(frame: CGRect(x: 50, y: HEIGHT-100, width: 100, height: 50))
+‘'''    let pauseBtn = UIButton(frame: CGRect(x: 50, y: HEIGHT-100, width: 100, height: 50))
         pauseBtn.addTarget(self, action: #selector(btnClick(_:)), for: .touchUpInside)
         pauseBtn.setTitle("暂停", for: .normal)
         pauseBtn.tag = 11
-        pauseBtn.setTitleColor(UIColor.black, for: .normal)'''
-        
+        pauseBtn.setTitleColor(UIColor.black, for: .normal)'''’
+
+# 网络链接
+http://www.baidu.com
+
 # 粗体和斜体
 *斜体字* 
+
 **粗体字** 
+
 ***加粗斜体字***
 
 # 表格格式一
@@ -66,5 +72,3 @@
  # 删除线
  ~~删除~~
  
- # 
-  
